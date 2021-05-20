@@ -1,0 +1,5 @@
+create database Notas;
+use Notas;
+create table usuario(id_usuario int primary key, nombre_usuario varchar(50),email varchar (15),contraseña varchar(15));
+create table cliente(id_cliente int primary key,nombre_cliente varchar(30), rfc Varchar(14), domicilio varchar (40), telefono int(11));
+create table venta(id_venta int primary key,nombre_producto varchar(10),nombre_servicio varchar(15),cantidad_producto int(3),precio_pu int (3), fk_usuario int(11),fk_cliente int (11),FOREIGN KEY (fk_cliente) REFERENCES cliente(id_cliente),FOREIGN KEY (fk_usuario) REFERENCES usuraio(id_usuario));

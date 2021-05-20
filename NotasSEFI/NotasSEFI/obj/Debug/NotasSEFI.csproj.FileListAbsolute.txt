@@ -1,0 +1,14 @@
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\bin\Debug\NotasSEFI.exe.config
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\bin\Debug\NotasSEFI.exe
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\bin\Debug\NotasSEFI.pdb
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.csprojAssemblyReference.cache
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.Properties.Resources.resources
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.csproj.GenerateResource.cache
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.csproj.CoreCompileInputs.cache
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.exe
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.pdb
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.FrmUsuario.resources
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.frmInicia.resources
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.frmCliente.resources
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.Frmagreganota.resources
+C:\Users\Miguel Esquinca\source\repos\NotasSEFI\NotasSEFI\obj\Debug\NotasSEFI.Frmbienvenido.resources
