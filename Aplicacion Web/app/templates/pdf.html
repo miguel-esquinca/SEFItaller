@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Document</title>
+</head>
+<style>
+    .pBorde {
+        margin-right: 500px;
+        border-style: groove;
+    }
+
+    .img1 {
+        position: absolute;
+
+    }
+
+    .img2 {
+        position: absolute;
+
+        left: 650px;
+
+    }
+
+    .centro {
+        position: absolute;
+        left: 120px;
+        margin-bottom: 15px;
+    }
+
+    .lista {
+
+        position: absolute;
+        top: 60px;
+
+        align-content: center;
+
+    }
+
+    .lista div {
+        margin: 5px;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td,
+    th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 4px;
+    }
+
+    tr:nth-child(2n-1) {
+        background-color: #dddddd;
+    }
+</style>
+
+<body>
+    <div>
+        
+        
+        
+    </div>
+    
+    <div class="lista">
+        <table class="table">
+            <thead class="thead-dark">
+              <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nombre del producto</th>
+                <th scope="col">Nombre del servicio</th>
+                <th scope="col">Cantidad</th>
+                <th scope="col">Precio</th>
+                <th scope="col">Nombre del cliente</th>
+                <th scope="col">RFC</th>
+                <th scope="col">Telefono</th>
+              </tr>
+            </thead>
+            <tbody>
+                
+              <tr>
+                <th>{{id}}</th>
+                <td>{{nproducto}}</td>
+                <td>{{nservicio}}</td>
+                <td>{{cantidad}}</td>
+                <td>{{precio}}</td>
+                <td>{{nombreC}}</td>
+                <td>{{rfc}}</td>
+                <td>{{telefono}}</td>
+                
+              
+            </tbody>
+          </table>
+
+        
+    </div>
+</body>
+
+</html>

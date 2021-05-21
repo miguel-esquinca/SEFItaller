@@ -1,0 +1,45 @@
+{% include 'header.html' %}
+
+    <div class="container">
+        <center><h1>Bienvenido</h1></center>
+        <div class="row">
+            <div class="col mt-5">
+                <table class="table">
+                    <thead class="thead-dark">
+                      <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Nombre del producto</th>
+                        <th scope="col">Nombre del servicio</th>
+                        <th scope="col">Cantidad</th>
+                        <th scope="col">Precio</th>
+                        <th scope="col">Nombre del cliente</th>
+                        <th scope="col">RFC</th>
+                        <th scope="col">Telefono</th>
+                        <th scope="col">Imprimir</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        {% for dato in facturas1 %}
+                      <tr>
+                        <th>{{dato.0}}</th>
+                        <td>{{dato.1}}</td>
+                        <td>{{dato.2}}</td>
+                        <td>{{dato.3}}</td>
+                        <td>{{dato.4}}</td>
+                        <td>{{dato.5}}</td>
+                        <td>{{dato.6}}</td>
+                        <td>{{dato.7}}</td>
+                        <td><a href="{{ url_for('sefi.pdf',id=dato.0)}}"><img src="{{ url_for('static',filename='imagenes/pdf.png') }}" height="40" width="50" alt=""></a> </td>
+                      </tr>
+                      {% endfor %}
+                    </tbody>
+                  </table>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    {% include 'footer.html' %}
